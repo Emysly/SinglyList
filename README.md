@@ -25,7 +25,7 @@ Display each node by making current to point to node next to it in each iteratio
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # CountNodes
-## Java program to create a singly linked list of n nodes and count the number of nodes
+## A program to create a singly linked list of n nodes and count the number of nodes
 
 In this program, we need to create a singly linked list and count the nodes present in the list.
 
@@ -58,7 +58,7 @@ Display each node by making current to point to node next to it in each iteratio
 
 # ReverseList
 
-## Java program to create a singly linked list of n nodes and display it in reverse order
+## A program to create a singly linked list of n nodes and display it in reverse order
 In this program, we need to create a singly linked list and display the list in reverse order.
 
 Original List
