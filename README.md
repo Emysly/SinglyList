@@ -31,7 +31,6 @@ In this program, we need to create a singly linked list and count the nodes pres
 Java program to create a singly linked list of n nodes and count the number of nodes
 To accomplish this task, traverse through the list using node current which initially points to head. Increment current in such a way that current will point to its next node in each iteration and increment variable count by 1. In the end, the count will hold the value which denotes the number of nodes present in the list.
 
-https://static.javatpoint.com/corebasic/programs/images/java-program-to-create-a-singly-linked-list-of-n-nodes-and-count-the-number-of-nodes.png
 
 Algorithm
 Create a class Node which has two attributes: data and next. Next is a pointer to the next node in the list.
