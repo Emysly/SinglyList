@@ -53,3 +53,37 @@ a. display() will display the nodes present in the list:
 Define a node current which will initially point to the head of the list.
 Traverse through the list till current points to null.
 Display each node by making current to point to node next to it in each iteration.
+
+-----
+
+Java program to create a singly linked list of n nodes and display it in reverse order
+In this program, we need to create a singly linked list and display the list in reverse order.
+
+Original List
+
+![](https://static.javatpoint.com/corebasic/programs/images/java-program-to-create-a-singly-linked-list-of-n-nodes-and-display-it-in-reverse-order.png)
+
+Reversed List
+
+![](https://static.javatpoint.com/corebasic/programs/images/java-program-to-create-a-singly-linked-list-of-n-nodes-and-display-it-in-reverse-order2.png)
+
+One of the approaches to solving this problem is to reach the end the of the list and display the nodes from tail to head recursively.
+
+Algorithm
+Create a class Node which has two attributes: data and next. Next is a pointer to the next node in the list.
+Create another class which has two attributes: head and tail.
+addNode() will add a new node to the list:
+Create a new node.
+It first checks, whether the head is equal to null which means the list is empty.
+If the list is empty, both head and tail will point to the newly added node.
+If the list is not empty, the new node will be added to end of the list such that tail's next will point to the newly added node. This new node will become the new tail of the list.
+a. reverse() will reverse the order of the nodes present in the list.
+
+This method checks whether node next to current is null which implies that, current is pointing to tail, then it will print the data of the tail node.
+Recursively call reverse() by considering node next to current node and prints out all the nodes in reverse order starting from the tail.
+a. display() will display the nodes present in the list:
+
+Define a node current which will initially point to the head of the list.
+Traverse through the list till current points to null.
+Display each node by making current to point to node next to it in each iteration.
+
