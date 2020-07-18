@@ -56,7 +56,9 @@ Display each node by making current to point to node next to it in each iteratio
 
 -----
 
-Java program to create a singly linked list of n nodes and display it in reverse order
+# ReverseList
+
+## Java program to create a singly linked list of n nodes and display it in reverse order
 In this program, we need to create a singly linked list and display the list in reverse order.
 
 Original List
